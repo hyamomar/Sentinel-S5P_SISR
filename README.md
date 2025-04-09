@@ -1,9 +1,7 @@
 # Depth Separable Architecture for Sentinel-5P Super-Resolution
 
-**Authors:**  
 Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³  
 
-**Affiliations:**  
 ¹ Institut Denis Poisson, Université d’Orléans, Université de Tours, CNRS, France  
 ² Faculty of Mathematical Sciences, University of Khartoum, Sudan  
 ³ Institut Universitaire de France (IUF)
@@ -12,15 +10,15 @@ Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³
 
 ## Overview
 
-This repository contains the implementation of the S5-DSCR model, a super-resolution approach for enhancing the spatial resolution of Sentinel-5P hyperspectral images using Depth Separable Convolution.
+This repository contains the implementation of the S5-DSCR model, a novel super-resolution (SR) approach designed to enhance the spatial resolution of Sentinel-5P (S5P) hyperspectral images. The model leverages Depth Separable Convolution (DSC) architecture to effectively capture cross-channel correlations. ​
 
 ---
 
 ## Objectives
 
-- Improve the spatial resolution of S5P data.
-- Use DSC architecture to capture spatial and spectral features.
-- Train separate models for each spectral band.
+- Improve the spatial resolution of S5P data by addressing the physical limitations of S5P's spatial resolution by applying advanced SR techniques.
+- Use DSC architecture to exploit spatial and spectral relationships within hyperspectral images.
+- Train the model separately for each of the eight spectral bands of S5P data to account for their unique spectral characteristics.
 
 ---
 
@@ -29,14 +27,14 @@ This repository contains the implementation of the S5-DSCR model, a super-resolu
 - Hyperspectral images from 15 S5P orbits.
 - 8 spectral bands, ~500 channels each.
 - Covers diverse spatial and spectral characteristics.
+- The dataset comprises hyperspectral images collected from 15 distinct S5P orbits, representing diverse spatial and spectral characteristics to provide comprehensive coverage of Earth's surface. Each spectral band contains approximately 500 channels, offering rich spectral information for SR processing.
+- The dataset comprises HS images from 15 different orbits of the S5P satellite, representing diverse spatial and spectral characteristics to ensure comprehensive coverage of Earth's surface. Each spectral band contains around 500 channels, providing a rich dataset for model training and evaluation.
 
 ---
 
 ## Methodology
 
-- Uses Depth Separable Convolution (DSC) for lightweight, efficient modeling.
-- Applies per-band training to address spectral differences.
-- Captures both spatial and inter-channel correlations.
+The S5-DSCR model employs DSC architecture to perform spatial super-resolution by effectively capturing interdependencies across all spectral channels while reducing computational complexity. We coupled DSC with residual connections to enhance feature extraction and stability.
 
 ---
 
@@ -45,7 +43,8 @@ This repository contains the implementation of the S5-DSCR model, a super-resolu
 - Outperforms existing SR methods for most spectral bands.
 - Delivers sharper, more detailed spatial reconstructions.
 - Enhances the usability of S5P data for atmospheric analysis.
-
+- Quantitative evaluations demonstrate that the S5-DSCR model outperforms existing methods in enhancing the spatial resolution of S5P data for the majority of spectral bands. The model successfully captures fine details necessary for precise analysis, thereby advancing capabilities in air quality monitoring and remote sensing applications.
+- Quantitative evaluations demonstrate that the S5-DSCR model outperforms existing super-resolution methods across the majority of spectral bands. The use of DSC architecture enables the model to capture fine details necessary for precise analysis, paving the way for advancements in air quality monitoring and remote sensing applications
 ---
 
 ## Citation
