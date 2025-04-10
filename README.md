@@ -37,7 +37,9 @@ This repository contains the implementation of the S5-DSCR model, a novel super-
 The S5-DSCR model employs DSC architecture to perform spatial super-resolution by effectively capturing interdependencies across all spectral channels while reducing computational complexity. We coupled DSC with residual connections to enhance feature extraction and stability.
 
 
-Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models
+
+<p align="center"><em>Figure 1: Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models</em></p>
+
 ![Alt text](imgs3/arch_v3.png)
 
 
