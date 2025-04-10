@@ -39,12 +39,12 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
 
 
 
-![Alt text](images/arch_v3.png)
+![Alt text](images/architecture.png)
 <p align="center"><em>Figure 1: Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models</em></p>
 
 
 
-![Alt text](images/DSC_v3.png)
+![Alt text](images/DSC.png)
 <p align="center"><em>Figure 2: DSC module</em></p>
 
 
