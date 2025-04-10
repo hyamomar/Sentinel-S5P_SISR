@@ -60,6 +60,7 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
   <strong>Our Result</strong>
 </p>
 
+**LR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ground Truth HR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Our Result**
 
 
 ![Alt text](imgs3/BD3.png)
