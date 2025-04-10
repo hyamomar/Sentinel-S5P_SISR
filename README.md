@@ -19,7 +19,7 @@ We used Sentinel-5P radiance data as the primary source of images for this study
 Each orbit contains radiance data of eight distinct bands with around and each of these spectral bands contain around 500 channels. Due to orbital and regional variations, the radiance data exhibits various spatial dimensions. The full radiance image spans a range of $4172$ to $3735$ along-track (scanlines) and $450$ to $215$  across-track (ground pixels), depending on the specific region and band. To ensure consistency and computational efficiency,  we cropped each radiance image into multiple images of size $512\times256$ for all bands and $512\times215$ for SWIR bands.
 
 ![Alt text](images/Image_split.png)
-<p align="center"><em>Figure 1: Full radaince Image (HR) along with cropped images </em></p>
+<p align="center"><em>Figure 1: Full radiance image (HR) with corresponding cropped images. From top to bottom and left to right, the cropped images are shown in the same order as they appear within the full image.</em></p>
 
 ---
 
