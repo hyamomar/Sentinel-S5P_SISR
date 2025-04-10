@@ -35,9 +35,10 @@ This repository contains the implementation of the S5-DSCR model, a novel super-
 ## Methodology
 
 The S5-DSCR model employs DSC architecture to perform spatial super-resolution by effectively capturing interdependencies across all spectral channels while reducing computational complexity. We coupled DSC with residual connections to enhance feature extraction and stability.
-
+*Figure 1: Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models*
 ![Alt text](imgs3/arch_v3.png)
 
+*Figure 2: DSC module*
 ![Alt text](imgs3/DSC_v3.png)
 
 
@@ -62,8 +63,7 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
 
 **LR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ground Truth HR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Our Result**
 
-**LR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ground Truth HR**&nbsp;&nbsp;&
-
+*Figure 3: SR results of S5-DSCR model for, from top to bottom,  bands 3, 5 and 7, with, from left to right, LR, ground truth HR, and our result. For visualization, each image is displayed in the first three PCA components of the ground truth*
 ![Alt text](imgs3/BD3.png)
 ![Alt text](imgs3/BD5.png)
 ![Alt text](imgs3/BD7.png)
