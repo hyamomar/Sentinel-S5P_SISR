@@ -53,24 +53,6 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
 
 ## Results
 
-- Outperforms existing SR methods for most spectral bands.
-- Delivers sharper, more detailed spatial reconstructions.
-- Enhances the usability of S5P data for atmospheric analysis.
-- Quantitative evaluations demonstrate that the S5-DSCR model outperforms existing methods in enhancing the spatial resolution of S5P data for the majority of spectral bands. The model successfully captures fine details necessary for precise analysis, thereby advancing capabilities in air quality monitoring and remote sensing applications.
-- Quantitative evaluations demonstrate that the S5-DSCR model outperforms existing super-resolution methods across the majority of spectral bands. The use of DSC architecture enables the model to capture fine details necessary for precise analysis, paving the way for advancements in air quality monitoring and remote sensing applications
-- 
-
-  **LR**        **Ground Truth HR**        **Our Result**
-
-  <p>
-  <strong>LR</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Ground Truth HR</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Our Result</strong>
-</p>
-
-**LR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Ground Truth HR**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Our Result**
-
-
 ![Alt text](images/BD3.png)
 ![Alt text](images/BD5.png)
 ![Alt text](images/BD7.png)
