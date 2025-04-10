@@ -14,11 +14,12 @@ This repository contains the implementation of the S5-DSCR model, a novel super-
 
 ## Dataset
 
-- Hyperspectral images from 15 S5P orbits.
-- 8 spectral bands, ~500 channels each.
-- Covers diverse spatial and spectral characteristics.
-- The dataset comprises hyperspectral images collected from 15 distinct S5P orbits, representing diverse spatial and spectral characteristics to provide comprehensive coverage of Earth's surface. Each spectral band contains approximately 500 channels, offering rich spectral information for SR processing.
-- The dataset comprises HS images from 15 different orbits of the S5P satellite, representing diverse spatial and spectral characteristics to ensure comprehensive coverage of Earth's surface. Each spectral band contains around 500 channels, providing a rich dataset for model training and evaluation.
+We used Sentinel-5P radiance data as the primary source of images for this study. These data are freely accessible on Copernicus’ official website as Level-1B radiance data. The dataset comprises data from $15$ orbits covering distinct regions acquired on January 4, 2023, and September 7, 2023. 
+
+Each orbit contains radiance data of eight distinct bands with around and each of these spectral bands contain around 500 channels. Due to orbital and regional variations, the radiance data exhibits various spatial dimensions. The full radiance image spans a range of $4172$ to $3735$ along-track (scanlines) and $450$ to $215$  across-track (ground pixels), depending on the specific region and band. To ensure consistency and computational efficiency,  we cropped each radiance image into multiple images of size $512\times256$ for all bands and $512\times215$ for SWIR bands.
+
+![Alt text](images/Image_split.png)
+<p align="center"><em>Figure 1: Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models</em></p>
 
 ---
 
@@ -30,12 +31,12 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
 
 
 ![Alt text](images/architecture.png)
-<p align="center"><em>Figure 1: Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models</em></p>
+<p align="center"><em>Figure 2: Architecture of S5-DSCR (L=5) and S5-DSCR-S (L=1) models</em></p>
 
 
 
 ![Alt text](images/DSC.png)
-<p align="center"><em>Figure 2: DSC module</em></p>
+<p align="center"><em>Figure 3: DSC module</em></p>
 
 
 
@@ -46,7 +47,7 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
 ![Alt text](images/BD3.png)
 ![Alt text](images/BD5.png)
 ![Alt text](images/BD7.png)
-<p align="center"><em>Figure 3: SR results of S5-DSCR model for, from top to bottom,  bands 3, 5 and 7, with, from left to right, LR, ground truth HR, and our result. For visualization, each image is displayed in the first three PCA components of the ground truth</em></p>
+<p align="center"><em>Figure 4: SR results of S5-DSCR model for, from top to bottom,  bands 3, 5 and 7, with, from left to right, LR, ground truth HR, and our result. For visualization, each image is displayed in the first three PCA components of the ground truth</em></p>
 
 
 ---
