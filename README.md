@@ -85,8 +85,8 @@ If you use this code, please cite:
 
 ```bibtex
 @article{ali2025depth,
-  title={Depth Separable Architecture for Sentinel-5P Super-Resolution},
+  title={Depth Separable architecture for Sentinel-5P Super-Resolution},
   author={Ali, Hyam Omar and Abraham, Romain and Galerne, Bruno},
-  journal={Preprint},
+  journal={arXiv preprint arXiv:2501.17210},
   year={2025}
 }
