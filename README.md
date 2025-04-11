@@ -21,7 +21,7 @@ Each orbit contains radiance data of eight distinct bands with around and each o
 ![Alt text](images/Image_split.png)
 <p align="center"><em>Figure 1: Full radiance image (HR) with corresponding cropped images. From top to bottom and left to right, the cropped images are shown in the same order as they appear within the full image.</em></p>
 
-The HS images were degraded using the degradation model \cite{carbone2024model} to simulate the LR images. This process involves simulating the real-world image acquisition process, such as blurring, to create realistic LR images that closely resemble the actual HS images. The degradation process involved applying a Point Spread Function (PSF) to model the blurring effect. The blurring kernel $K$ is simulated by asymmetric Gaussian function with different standard deviations in the along-track and cross-track directions. For S5P data, the standard deviations vary for each detector \cite{carbone2024model}: $0.37$ and $0.36$ (UV), $0.44$ and $0.74$ (UVIS), $0.45$ and $0.74$ (NIR), and $0.15$ and $0.20$ (SWIR) in the across-track and along-track directions, respectively. A scaling factor of $4$ was utilized to downsample the HR images.
+The HS images were degraded using the [degradation model](https://github.com/alcarbone/S5P_SISR_Toolbox/blob/main/scripts/resize_image.py) to simulate the LR images. This process involves simulating the real-world image acquisition process, such as blurring, to create realistic LR images that closely resemble the actual HS images. A scaling factor of $4$ was utilized to downsample the HR images.
 
 ---
 
