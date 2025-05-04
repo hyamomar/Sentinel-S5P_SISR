@@ -62,14 +62,6 @@ The S5-DSCR model employs DSC architecture to perform spatial super-resolution b
 
 
 
----
-
-## Results
-
-![Alt text](images/BD3.png)
-![Alt text](images/BD5.png)
-![Alt text](images/BD7.png)
-<p align="center"><em>Figure 4: SR results of S5-DSCR model for, from top to bottom,  bands 3, 5 and 7, with, from left to right, LR, ground truth HR, and our result. For visualization, each image is displayed in the first three PCA components of the ground truth</em></p>
 
 
 ---
