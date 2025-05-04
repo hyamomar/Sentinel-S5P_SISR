@@ -1,4 +1,4 @@
-# Depth Separable Architecture for Sentinel-5P Super-Resolution
+# [Depth Separable Architecture for Sentinel-5P Super-Resolution](https://arxiv.org/abs/2501.17210)
 
 
 <h3 align="center">Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³</h3>
