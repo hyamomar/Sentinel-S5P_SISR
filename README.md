@@ -30,7 +30,7 @@ This repository contains the implementation of the [S5-DSCR model](https://arxiv
 
 ## Data Preparation 
 
-# Dataset 
+### Dataset 
 
 We used Sentinel-5P radiance data as the primary source of images for this study. These data are freely accessible on [Copernicus’ official website](https://dataspace.copernicus.eu/) as Level-1B radiance data. The dataset comprises data from $15$ orbits covering distinct regions acquired on January 4, 2023, and September 7, 2023. 
 
@@ -39,7 +39,7 @@ Each orbit contains radiance data of eight distinct bands with around and each o
 ![Alt text](images/Image_split.png)
 <p align="center"><em>Figure 1: Full radiance image (HR) with corresponding cropped images. From top to bottom and left to right, the cropped images are shown in the same order as they appear within the full image.</em></p>
 
-# The Degradation Model
+### The Degradation Model
 
 The HS images were degraded using the [degradation model](https://github.com/alcarbone/S5P_SISR_Toolbox/blob/main/) to simulate the LR images. This process involves simulating the real-world image acquisition process, such as blurring, to create realistic LR images that closely resemble the actual HS images. A scaling factor of $4$ was utilised to downsample the HR images.
 
