@@ -1,10 +1,10 @@
 # Depth Separable Architecture for Sentinel-5P Super-Resolution
 
-<p align="center"><strong>Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³  
+<p align="center">Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³</p>
 
-¹ Institut Denis Poisson, Université d’Orléans, Université de Tours, CNRS, France  
-² Faculty of Mathematical Sciences, University of Khartoum, Sudan  
-³ Institut Universitaire de France (IUF)</strong></p>
+<p align="center">¹ Institut Denis Poisson, Université d’Orléans, Université de Tours, CNRS, France</p>  
+<p align="center">² Faculty of Mathematical Sciences, University of Khartoum, Sudan</p>  
+<p align="center">³ Institut Universitaire de France (IUF)</p>
 
 <p align="center"><strong>Accepted at IGARSS 2025</strong></p>
 
