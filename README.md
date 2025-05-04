@@ -3,6 +3,8 @@
 <p align="center">Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³</p>
 
 <p align="center"><strong><span style="font-size:18px">Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³</span></strong></p>
+<h3 align="center">Hyam Omar Ali¹ ², Romain Abraham¹, Bruno Galerne¹ ³</h3>
+
 
 
 <p align="center">¹ Institut Denis Poisson, Université d’Orléans, Université de Tours, CNRS, France</p>  
