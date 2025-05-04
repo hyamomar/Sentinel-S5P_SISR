@@ -12,6 +12,12 @@
 
 This repository contains the implementation of the [S5-DSCR model](https://arxiv.org/abs/2501.17210), a novel super-resolution (SR) approach designed to enhance the spatial resolution of Sentinel-5 Precursor (S5P) satellite data. The S5P satellite provides extensive hyperspectral (HS) images across eight spectral bands, each containing approximately 500 channels. The S5-DSCR model leverages Depth Separable Convolution (DSC) architecture to effectively exploit cross-channel correlations, thereby improving the spatial resolution of S5P data. 
 
+![Alt text](images/BD3.png)
+![Alt text](images/BD5.png)
+![Alt text](images/BD7.png)
+<p align="center"><em>Figure 1: SR results of S5-DSCR model for, from top to bottom,  bands 3, 5 and 7, with, from left to right, LR, ground truth HR, and our result. For visualisation, each image is displayed in the first three PCA components of the ground truth</em></p>
+
+
 ---
 
 ## Objectives
