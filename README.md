@@ -16,7 +16,10 @@ This repository contains the implementation of the [S5-DSCR model](https://arxiv
 ![Alt text](images/BD5.png)
 ![Alt text](images/BD7.png)
 <p align="center"><em>Figure 1: SR results of S5-DSCR model for, from top to bottom,  bands 3, 5 and 7, with, from left to right, LR, ground truth HR, and our result. For visualisation, each image is displayed in the first three PCA components of the ground truth</em></p>
+
+
 ![Alt text](images/SR_results.png)
+<p align="center"><em>Figure 1: Full radiance image (HR) with corresponding cropped images. From top to bottom and left to right, the cropped images are shown in the same order as they appear within the full image.</em></p>
 
 ---
 
