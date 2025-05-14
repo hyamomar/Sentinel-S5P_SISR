@@ -1,10 +1,5 @@
 # [Depth Separable Architecture for Sentinel-5P Super-Resolution](https://arxiv.org/abs/2501.17210)
 
-<h1 align="center">
-  <a href="https://arxiv.org/abs/2501.17210">
-    Depth Separable Architecture for Sentinel-5P Super-Resolution
-  </a>
-</h1>
 
 
 
