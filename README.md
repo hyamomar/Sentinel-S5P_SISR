@@ -43,7 +43,7 @@ Each orbit contains radiance data of eight distinct bands with around and each o
 
 ### The Degradation Model
 
-The HS images were degraded using the degradation model by [Carone et al.](https://github.com/alcarbone/S5P_SISR_Toolbox/blob/main/) to simulate the LR images. This process involves simulating the real-world image acquisition process, such as blurring, to create realistic LR images that closely resemble the actual HS images. A scaling factor of $4$ was utilised to downsample the HR images.
+The HS images were degraded using the [degradation model](https://github.com/alcarbone/S5P_SISR_Toolbox/blob/main/) by [Carone et al.] (https://ieeexplore.ieee.org/document/10499875?source=authoralert) to simulate the LR images. This process involves simulating the real-world image acquisition process, such as blurring, to create realistic LR images that closely resemble the actual HS images. A scaling factor of $4$ was utilised to downsample the HR images.
 
 ---
 
